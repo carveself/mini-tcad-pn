@@ -108,13 +108,11 @@ x_n=\frac{N_A}{N_A+N_D}W,\qquad N_Ax_p=N_Dx_n
 
 最后一个等式表示正负耗尽电荷相等，因此耗尽区主要伸入掺杂较轻的一侧。耗尽电荷为：
 
-```math
-\rho(x)=\begin{cases}
--qN_A,&-x_p<x<0,\\
-+qN_D,&0<x<x_n,\\
-0,&\text{其他位置}.
-\end{cases}
-```
+| 区域 | 位置 | 空间电荷密度 $`\rho(x)`$ |
+| --- | --- | --- |
+| P 侧耗尽区 | $`-x_p<x<0`$ | $`-qN_A`$ |
+| N 侧耗尽区 | $`0<x<x_n`$ | $`qN_D`$ |
+| 结外中性区 | 其余位置 | 0 |
 
 通过 $`d\mathcal E/dx=\rho/\varepsilon_{Si}`$ 和 $`\mathcal E=-d\psi/dx`$ 得到：
 
