@@ -1,0 +1,72 @@
+{
+  "model": "linear Poisson with prescribed depletion charge",
+  "parameters": {
+    "NA_cm-3": 1e+16,
+    "ND_cm-3": 1e+17,
+    "T_K": 300,
+    "ni_cm-3": 10000000000.0,
+    "Eg_eV": 1.1245192307692307,
+    "VT_V": 0.025851999786435535,
+    "Vbi_V": 0.7738435813203123,
+    "W_um": 0.331779869274816,
+    "xp_um": 0.30161806297710547,
+    "xn_um": 0.030161806297710547,
+    "peak_field_magnitude_V_per_m": 4664801.291360636
+  },
+  "comparison": {
+    "nodes": 1601,
+    "h_m": 3.1104362744511416e-10,
+    "max_potential_error_V": 8.707112041372866e-07,
+    "rms_potential_error_V": 2.499739923586226e-07,
+    "max_field_error_V_m": 4008.4643561941266,
+    "scaled_discrete_residual": 1.483958675755689e-11,
+    "net_sheet_charge_C_m2": -5.793639038598429e-19
+  },
+  "refinement": [
+    {
+      "nodes": 201,
+      "h_m": 2.488349019561125e-09,
+      "max_potential_error_V": 6.451920860650606e-05,
+      "rms_potential_error_V": 2.8236139789144922e-05,
+      "max_field_error_V_m": 31969.43818334599,
+      "scaled_discrete_residual": 1.3042605548631767e-13,
+      "net_sheet_charge_C_m2": -2.1726146394745956e-19
+    },
+    {
+      "nodes": 401,
+      "h_m": 1.2441745097805625e-09,
+      "max_potential_error_V": 1.1032107568476057e-05,
+      "rms_potential_error_V": 5.110967241322179e-06,
+      "max_field_error_V_m": 43267.975644641556,
+      "scaled_discrete_residual": 9.274741723471478e-13,
+      "net_sheet_charge_C_m2": -2.1726146394745956e-19
+    },
+    {
+      "nodes": 801,
+      "h_m": 6.220872548902813e-10,
+      "max_potential_error_V": 2.894734139058386e-06,
+      "rms_potential_error_V": 1.0406583852053282e-06,
+      "max_field_error_V_m": 16831.85429425817,
+      "scaled_discrete_residual": 3.709896689388591e-12,
+      "net_sheet_charge_C_m2": 3.077870739255677e-18
+    },
+    {
+      "nodes": 1601,
+      "h_m": 3.1104362744511416e-10,
+      "max_potential_error_V": 8.707112041372866e-07,
+      "rms_potential_error_V": 2.499739923586226e-07,
+      "max_field_error_V_m": 4008.4643561941266,
+      "scaled_discrete_residual": 1.483958675755689e-11,
+      "net_sheet_charge_C_m2": -5.793639038598429e-19
+    },
+    {
+      "nodes": 3201,
+      "h_m": 1.5552181372255708e-10,
+      "max_potential_error_V": 1.952091268631051e-07,
+      "rms_potential_error_V": 5.0105994320652703e-08,
+      "max_field_error_V_m": 3006.458361038938,
+      "scaled_discrete_residual": 5.935834703022756e-11,
+      "net_sheet_charge_C_m2": 3.258921959211616e-19
+    }
+  ]
+}
